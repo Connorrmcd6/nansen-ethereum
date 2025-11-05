@@ -140,7 +140,7 @@ ClickHouse serves as the high-performance analytical layer:
 
 ### 6. Monitoring & Alerting
 
-## Pipeline health is monitored using Cloud Composer’s built-in logging and alerting features. Failures or anomalies in data ingestion, transformation, or export trigger automated alerts, enabling rapid response and minimizing downtime.
+Pipeline health is monitored using Cloud Composer’s built-in logging and alerting features. Failures or anomalies in data ingestion, transformation, or export trigger automated alerts, enabling rapid response and minimizing downtime.
 
 ## Diagram
 
