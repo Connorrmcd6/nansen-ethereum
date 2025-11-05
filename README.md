@@ -37,25 +37,21 @@ source .venv/bin/activate
 > **Note:**  
 > This project requires Python 3.11 because `ethereum-etl` is not compatible with Python 3.13.
 
-````
-
 ### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
-````
+```
 
 ### 4. Prepare Google Cloud Credentials
 
 - Download your GCP service account key as `gcp-key.json` and place it in the project root.
 
-````
-
 ### 5. Run the Ingestion Script
 
 ```bash
 python scripts/ingest_eth_blocks.py
-````
+```
 
 This will:
 
