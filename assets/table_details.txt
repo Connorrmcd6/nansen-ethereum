@@ -1,0 +1,25 @@
+-- tables and descriptions:
+
+bigquery-public-data.crypto_ethereum.balances: This table contains Ether balances of all addresses, updated daily.
+
+bigquery-public-data.crypto_ethereum.blocks: The Ethereum blockchain is composed of a series of blocks. This table contains a set of all blocks in the blockchain and their attributes.
+
+bigquery-public-data.crypto_ethereum.contracts: Some transactions create smart contracts from their input bytes, and this smart contract is stored at a particular 20-byte address.
+This table contains a subset of Ethereum addresses that contain contract byte-code, as well as some basic analysis of that byte-code.
+
+bigquery-public-data.crypto_ethereum.load_metadata: 
+
+bigquery-public-data.crypto_ethereum.logs: Similar to the token_transfers table, the logs table contains data for smart contract events. However, it contains all log data, not only ERC20 token transfers.
+This table is generally useful for reporting on any logged event type on the Ethereum blockchain.
+
+bigquery-public-data.crypto_ethereum.sessions: 
+
+bigquery-public-data.crypto_ethereum.token_transfers: The most popular type of transaction on the Ethereum blockchain invokes a contract of type ERC20 to perform a transfer operation, moving some number of tokens from one 20-byte address to another 20-byte address.
+This table contains the subset of those transactions and has further processed and denormalized the data to make it easier to consume for analysis of token transfer events.
+
+bigquery-public-data.crypto_ethereum.tokens: Token data.
+
+bigquery-public-data.crypto_ethereum.traces: Traces exported using Parity trace module
+
+bigquery-public-data.crypto_ethereum.transactions: Each block in the blockchain is composed of zero or more transactions. Each transaction has a source address, a target address, an amount of Ether transferred, and an array of input bytes.
+This table contains a set of all transactions from all blocks, and contains a block identifier to get associated block-specific information associated with each transaction.

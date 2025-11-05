@@ -1,0 +1,87 @@
+[
+    {
+        "name": "hash",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "nonce",
+        "type": "INT64",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "block_hash",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "block_number",
+        "type": "INT64",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "transaction_index",
+        "type": "INT64",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "from_address",
+        "type": "STRING",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "to_address",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "value",
+        "type": "NUMERIC",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "gas",
+        "type": "INT64",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "gas_price",
+        "type": "INT64",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "input",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "block_timestamp",
+        "type": "TIMESTAMP",
+        "mode": "REQUIRED"
+    },
+    {
+        "name": "max_fee_per_gas",
+        "type": "INT64",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "max_priority_fee_per_gas",
+        "type": "INT64",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "transaction_type",
+        "type": "INT64",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "max_fee_per_blob_gas",
+        "type": "INT64",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "blob_versioned_hashes",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
